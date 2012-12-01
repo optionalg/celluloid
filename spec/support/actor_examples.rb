@@ -721,7 +721,7 @@ shared_context "a Celluloid Actor" do |included_module|
       actor.tasks.size.should == 1
     end
   end
-  
+
   context :proxy_class do
     class ExampleProxy < Celluloid::ActorProxy; end
 
